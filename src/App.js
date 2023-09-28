@@ -6,6 +6,8 @@ import MyNavBar from "./Components/MyNavBar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import About from "./Components/About";
+import Movies from "./Test/Views/Movies";
+import Cats from "./Test/Views/Cats";
 
 function App() {
   let [count, setCount] = useState(1);
@@ -38,6 +40,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/cats" element={<Cats />} />
         </Routes>
         {/* <Row style={{ paddingTop: "10px", display: "flex", justifyContent: "center" }}>
         <Counter count={count} increaseCount={increaseCount} />

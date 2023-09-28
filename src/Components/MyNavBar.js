@@ -13,6 +13,12 @@ const MyNavBar = () => {
             <Link to="/" style={{ paddingRight: "5px" }}>
               Home
             </Link>
+            <Link to="/movies" style={{ paddingRight: "5px" }}>
+              Movies
+            </Link>
+            <Link to="/cats" style={{ paddingRight: "5px" }}>
+              Cats
+            </Link>
             <Link to="/about">About</Link>
           </Nav>
         </Navbar.Collapse>
